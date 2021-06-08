@@ -1,1 +1,0 @@
-console.log("estoy siendo ejecutado dentro de un entorno servidor");
