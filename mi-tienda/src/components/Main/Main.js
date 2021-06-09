@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './components/Main';
-import Navbar from '../NavBar/NavBar' 
+import Navbar from '../NavBar/NavBar';
+import {numberWithCommas} from '../utils/string';
 
 function Main() {
   return (
@@ -8,7 +9,7 @@ function Main() {
       <Navbar></Navbar>
         
       <div className="containesr">
-        {"soy un numero de ejemplo y me van a formatear ${50}"}
+        {"soy un numero de ejemplo y me van a formatear ${numberWithCommas(50)}"}
       </div>
     </div>
     );
