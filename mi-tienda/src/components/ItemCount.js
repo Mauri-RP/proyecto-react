@@ -9,8 +9,8 @@ const Component = () => {
 
   return (
     <div>
-      <h1>Mi boyon contador</h1>
-      <p>Button down!</p>
+      <h1>Mi contador personal</h1>
+      <p>Botón contador</p>
       <button onClick={() => {
         setCount(count + 1)
         setDate(new Date().toString())
